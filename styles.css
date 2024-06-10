@@ -1,0 +1,105 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo a {
+    color: #333;
+    text-decoration: none;
+}
+
+.logo img {
+    height: 48px;
+    margin-right: 10px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #fff;
+    border-right: 1px solid #ccc;
+    padding-top: 5em;
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    font-size: 20px;
+    padding: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+}
+
+nav ul li:hover {
+    font-size: 25px;
+    background-color: #f0f0f0;
+}
+
+main {
+    margin-left: 200px;
+    padding: 2em;
+}
+
+.product-image {
+    position: relative;
+    background-image: url('product.jpg'); /* 신제품 이미지 파일명 */
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2em;
+    transition: background 0.3s ease;
+}
+
+.product-image .overlay {
+    position: absolute;
+    text-align: center;
+    padding: 1em;
+    display: none;
+}
+
+footer {
+    text-align: center;
+    padding: 2em 0;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ccc;
+}
